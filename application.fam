@@ -1,0 +1,9 @@
+App(
+    appid="pocket_step",
+    name="Pocket Step",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="pocket_step_app",
+    stack_size=4 * 1024,
+    requires=["gui"],
+    fap_category="Games",
+)
